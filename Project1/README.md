@@ -8,9 +8,17 @@
 
 See the [Evaluation](./evaluation.md) sheet for details.
 
-Assume you have a variable reluctance machine as shown in the figure below:
+Assume you have a variable reluctance machine as shown in the figures below:
 
+![core](./core.jpeg)
 
+![dimensions](./dimensions.jpeg)
+
+- Coils are wound within 30mmx10mm rectangle areas
+- Each airgap clearance is 0.5mm
+- Depth of the core is 20mm
+- Number of turns = 250
+- Coil Current = 3 A DC
 
 ## Q1) Analytical modelling
 
@@ -18,7 +26,7 @@ a) Derive an analytical formula for the reluctance and the inductance of the sys
 
 b) Derive and plot the torque generated in the system under constant DC excitation.
 
-c) Suggest a method to improve your model by including non-linear effects (fringing flux, non-homogenous flux distribution) etc.
+c) Suggest a method to improve your model by including non-linear effects (fringing flux, non-homogeneous flux distribution) etc.
 
 ## Q2) FEA Modelling (2D - Linear Materials)
 
