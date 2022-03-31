@@ -16,7 +16,7 @@ Assume you have a variable reluctance machine as shown in the figures below:
 
 - Coils are wound within 30 mm x 10 mm rectangle areas
 - Each airgap clearance is 0.5 mm
-- Depth of the core is 2 0mm
+- Depth of the core is 20 mm
 - Number of turns = 250
 - Coil Current = 3 A DC
 
