@@ -2,6 +2,6 @@
 
 ## Selected Topics on Electrical Machines
 
-## 2021-2022 Spring Semester
+## 2025-2026 Spring Semester
 
-For details visit http://keysan.me/ee568
+For details and lecture presentations, visit http://keysan.me/ee568

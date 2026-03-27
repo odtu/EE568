@@ -1,12 +1,20 @@
 # EE564 Project-1
 
-## Torque in a Variable Reluctance Machine
+## Deadline 20/04 23:59
 
-## Deadline 17/04 23:59
+## Extra Project Topics
+
+Any students are free to offer any other project topics more relevant to their research interests. Please contact me if you have suggestions like that and make sure the topic that you suggest cover similar topics of the Project #1:
+
+- Simple analytical magnetic calculations (magnetic flux density, inductance, energy etc.)
+- 2D Magneto-static simulations (with ferromagnetic materials or PMs)
+- Effect of mesh size and material properties (linear, non-linear etc.)
 
 ## Grading and Procedure
 
 See the [Evaluation](./evaluation.md) sheet for details.
+
+## Torque in a Variable Reluctance Machine
 
 Assume you have a variable reluctance machine as shown in the figures below:
 
@@ -15,14 +23,14 @@ Assume you have a variable reluctance machine as shown in the figures below:
 ![dimensions](./dimensions.jpeg)
 
 - Coils are wound within 30 mm x 10 mm rectangle areas
-- Each airgap clearance is 0.5 mm
-- Depth of the core is 20 mm
-- Number of turns = 250
-- Coil Current = 3 A DC
+- Each air-gap clearance is 0.5 mm
+- Depth of the core is 25 mm
+- Number of turns = 300
+- Coil Current = 2.5 A DC
 
 ## Q1) Analytical modelling
 
-a) Calculate analytically the maximum and minimum reluctance (and inductance) as the rotor makes a full rotation. You can make necessary assumptions to simplify your calculations, please please state them explicitly. You may assume the core is infinitely permeable for this section. Please obtain and plot the inductance variation as a function of rotation. You may assume sinusoidal variation.
+a) Calculate analytically the maximum and the minimum reluctance (and inductance) values as the rotor makes a full rotation. You can make necessary assumptions to simplify your calculations(state your assumptions clearly). You may assume the core is infinitely permeable for this part. Please obtain and plot the inductance variation as a function of rotation. You may assume sinusoidal variation.
 
 b) Derive and plot the torque generated in the system under constant DC excitation.
 
@@ -34,7 +42,7 @@ Model the system in a 2D FEA software (you can use any software you want, please
 
 Here are a few suggestions:
 
-- If you haven't used any FEA software before, I advise you to start with FEMM, which is free and a simple program. If you are planning to use FEA simulations in your professional life, then it makes sense to learn a more capable program (e.g.  ANSYS Maxwell)
+- If you haven't used any FEA software before, I advise you to start with FEMM, which is free and a simple program. If you are planning to use FEA simulations in your professional life, then it makes sense to learn a more capable program (e.g.  ANSYS Maxwell, or COMSOL)
 
 - 2D simulations will be enough for assignments in this course. If you feel comfortable, you can proceed with the bonus 3D simulations (you have been warned).
 
@@ -42,7 +50,7 @@ Here are a few suggestions:
 
 - There are a few people already using FEA software, if you feel stuck, please ask for help. The solution is usually very simple.
 
-For this part choose a realistic electric steel lamination (you can use software library or use real material data-sheets). For this part assume the material is LINEAR (i.e. assume permeability is constant).
+For this part choose a realistic electric steel lamination (you can use software library or use real material data-sheets). For this part assume the material is LINEAR (i.e. with constant permeability, no saturation).
 
 a) Draw the flux density vectors for three positions (0, 45, 90 degrees), adjust the scales so the figures are readable.
 
